@@ -12,7 +12,6 @@ import org.java_websocket.handshake.ClientHandshake;
 import org.java_websocket.server.WebSocketServer;
 
 import com.tgp.templarsocket.Message;
-import com.tgp.templarsocket.Requisitions;
 
 public class Server extends WebSocketServer {
 
