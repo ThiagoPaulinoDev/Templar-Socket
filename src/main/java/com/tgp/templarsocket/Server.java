@@ -82,7 +82,7 @@ public class Server extends WebSocketServer {
 	}
 
 	private MessageWithCallbackReceivedListenner mwcrl = (client, msg) -> {
-		return new Message<Requisitions, String>(Requisitions.ERROR, "return does not setted");
+		return new Message<Integer, String>(0, "return does not setted");
 	};
 
 	public void setOnMessageWithCallbackReceived(MessageWithCallbackReceivedListenner mwcrl) {
