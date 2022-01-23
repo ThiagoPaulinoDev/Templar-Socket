@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.tgp</groupId>
   <artifactId>templarsocket</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <name>Templar Socket</name>
   <properties>
      <maven.compiler.target>1.8</maven.compiler.target>
